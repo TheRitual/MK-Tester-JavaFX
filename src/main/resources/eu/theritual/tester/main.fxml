@@ -10,5 +10,6 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="eu.theritual.tester.Main"
             prefHeight="400.0" prefWidth="600.0">
+    <Label> This is just a test method </Label>
 
 </AnchorPane>
