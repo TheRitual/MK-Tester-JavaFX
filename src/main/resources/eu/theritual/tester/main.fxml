@@ -6,10 +6,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<GridPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="eu.theritual.tester.Main"
-            prefHeight="400.0" prefWidth="600.0">
-    <Label> This is just a test method </Label>
-
-</AnchorPane>
+            prefHeight="400.0" prefWidth="600.0" hgap="10" vgap="10" alignment="CENTER">
+        <Label GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER"> Click the button! </Label>
+        <Button text="it means me!" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+</GridPane>
